@@ -1,0 +1,331 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   
+}
+body{
+   max-width: 1440px;
+   margin: 0 auto;
+}
+.container{
+   width: 1170px;
+   margin: 0 auto;;
+}
+
+.header {
+   
+   &__container {
+      width: 95%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 26px 0;
+   }
+
+   &__logo {
+   }
+
+   &__nav {
+      width: 40%;
+      display: flex;
+      align-items: center;
+   }
+}
+.logo {
+}
+.nav {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   &__text {
+      text-transform: uppercase;
+      font-family: 'Raleway';
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 0.6px;
+      color: #373A39;
+      
+      &:hover{
+         text-decoration: underline green;
+         
+      }
+   }
+}
+
+.main {
+   background: url(../img/images/Header-bg.jpg) center;
+   padding-top: 240px;
+   padding-bottom: 60px;
+   &__title {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 100px;
+      line-height: 122px;
+      /* identical to box height */
+      color: #FFFFFF;
+      margin-bottom: 18.5px;
+   }
+
+   &__under-title {
+      text-transform: uppercase;
+      text-align: center;
+      font-family: Montserrat;
+      
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      /* identical to box height */
+
+   
+      letter-spacing: 2.74286px;
+
+      color: #FCBB08;
+      margin-bottom: 179.5px;
+   }
+
+   &__mouse {
+      display: flex;
+      justify-content: center;
+   }
+
+   &__img {
+   }
+}
+
+.about-us {
+   background: #F6F8FA;
+   &__container {
+      padding-top: 143px;
+      padding-bottom: 159px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__title {
+   }
+
+   &__information {
+      width: 65%;
+   }
+
+   &__text {
+      font-family: 'Open Sans';
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 24px;
+      color: #373A39;
+   }
+}
+.title {
+
+   &__text {
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 75px;
+      /* identical to box height, or 156% */
+
+      color: #242121;
+   }
+
+   &__underline {
+
+      width: 60px;
+      height: 4px;
+      background: #FCBB08;
+      border: none;
+   }
+}
+
+.our-expertise {
+   
+   &__container {
+      padding-top: 143px;
+      padding-bottom: 164px;
+   }
+
+   &__title {
+      margin-bottom: 89px;
+   }
+
+   &__info {
+     margin-bottom: 110px;
+   }
+
+   &__under-info {
+      display: flex;
+   }
+}
+.info-expertise {
+   display: flex;
+   &__progress-bar {
+   }
+   &__information{
+
+   }
+   &__text{
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 24px;
+      /* or 171% */
+
+
+      color: #373A39;
+   }
+}
+.progress-bar {
+
+   &__item {
+   }
+}
+.item-prog-bar {
+
+   &__prog-bar {
+   }
+
+   &__info {
+   }
+
+   &__text {
+   }
+
+   &__procents {
+   }
+}
+.item-under-info-expertise {
+   display: flex;
+   margin-right: 27px;
+   &:last-child{
+      margin-right: 0px;
+   }
+   &__block-img {
+      margin-right: 35px;
+   }
+
+   &__img {
+   }
+
+   &__information {
+   }
+
+   &__title {
+      font-family: Raleway;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 20px;
+   /* identical to box height, or 143% */
+
+   letter-spacing: 4.29px;
+
+   color: #333333;
+   }
+
+   &__text {
+      font-family: Open Sans;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 24px;
+   /* or 171% */
+
+
+   color: #777777;
+   }
+}
+
+.magic {
+   display: flex;
+   &__man-img {
+   }
+
+   &__img {
+   }
+
+   &__information {
+      padding: 101px;
+   }
+
+   &__title {
+   }
+
+   &__text {
+      font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: #373A39;
+   }
+}
+
+.portfolio {
+
+   &__title {
+   }
+
+   &__nav {
+   }
+
+   &__pictures {
+      display: flex;
+justify-content: space-between;
+
+   }
+
+   &__footer {
+   }
+}
+.pictures-column{
+   
+   
+}
+.pictures-column {
+   
+   &__item {
+      width: 340px;
+      
+      background: black;
+   }
+   &--first{
+      
+      width: 340px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      &#one{
+         flex: 2 1 300px;
+      }
+      &#two{
+         flex: 1 2 300px;
+      }
+   }
+
+   &--second {
+
+      width: 340px;
+      height: 100px;
+   }
+
+   &--third {
+
+      width: 340px;
+      height: 100px;
+   }
+
+   &--fourth {
+
+      width: 340px;
+      height: 100px;
+   }
+}
+
+
+
+
